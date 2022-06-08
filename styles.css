@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #f3f3ea;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+.avatar {
+  width: 150px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: #909194;
+}
+
+.info p {
+  color: #86898f;
+  font-style: italic;
+}
+/*.social {background: red;}
+.container {max-width: 800px;
+            margin: auto;
+}*/
+.bg-yellow {
+  background: #fff9dc;
+}
+.info {
+  display: flex;
+  margin-left: 10px;
+}
+.bg-red {
+  background: #ffe5e5;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.list li {
+  padding: 0 10px;
+  color: #86898f;
+  margin-bottom: 10px;
+}
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+.format label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+  padding-top: 20px;
+}
+
+.format input {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+.format h2 {
+  text-align: center;
+}
+
+.format .btn {
+  background: #000000;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.massage {
+  margin-bottom: 20px;
+}
